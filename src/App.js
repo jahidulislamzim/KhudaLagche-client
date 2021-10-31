@@ -12,6 +12,7 @@ import MyOrder from './Pages/MyOrder/MyOrder';
 import ManageAllOrder from './Pages/ManageAllOrder/ManageAllOrder';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import Footer from './Pages/Share/Footer/Footer';
+import ErrorPage from './Pages/ErrorPage/ErrorPage';
 
 function App() {
   return (
@@ -46,6 +47,9 @@ function App() {
           <PrivateRoute path='/addservice'>
             <AddService></AddService>
           </PrivateRoute>
+          <Route path="*">
+            <ErrorPage></ErrorPage>
+          </Route>
         </Switch>
         <Footer></Footer>
       </BrowserRouter>
