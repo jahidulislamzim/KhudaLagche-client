@@ -2,7 +2,7 @@
 
 Khuda Lagche Live Site [click Here](https://khuda-lagche.netlify.app/).
 </br>
-iCraft Server Side [click Here](https://github.com/jahidulislamzim/Khudalagche-server).
+Khuda Lagche Server Side [click Here](https://github.com/jahidulislamzim/Khudalagche-server).
 
 
 
